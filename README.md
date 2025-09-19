@@ -57,4 +57,21 @@ Choose:
    - Nhập số lượng cần thêm.  
 
 5. **Xem giỏ hàng** (chọn `5`):  
-   Hiển thị toàn bộ sản phẩm trong giỏ và số lượng tương ứng.  
+   Hiển thị toàn bộ sản phẩm trong giỏ và số lượng tương ứng.
+
+## Hướng dẫn biên dịch và chạy
+
+### Trên Dev-C++ 5.11
+- Mở **Dev-C++ 5.11** → File → New → Project → Console Application → C++.  
+- Dán toàn bộ code vào file `main.cpp`.  
+- Nhấn **F11** hoặc chọn Compile & Run để chạy chương trình.  
+
+### Trên Visual Studio (Windows)
+- Tạo dự án Console App C++.  
+- Trong file `main.cpp`, thay phần thư viện đầu bằng:  
+  ```cpp
+  #include <iostream>
+  #include <vector>
+  #include <string>
+  using namespace std;
+
