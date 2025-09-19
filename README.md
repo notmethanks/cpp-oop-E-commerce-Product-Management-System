@@ -58,5 +58,3 @@ Choose:
 
 5. **Xem giỏ hàng** (chọn `5`):  
    Hiển thị toàn bộ sản phẩm trong giỏ và số lượng tương ứng.  
-
-## Ví dụ chạy chương trình
