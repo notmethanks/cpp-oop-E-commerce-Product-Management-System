@@ -2,7 +2,7 @@
 using namespace std;
 class IDiscountable {
 protected:
-    virtual double applyDiscount(double rate) = 0; // pure virtual
+    virtual double applyDiscount(double rate) = 0;
 };
 class Product : public IDiscountable {
 protected:
@@ -78,7 +78,7 @@ private:
 public:
     void addToCart(Product* p, int qty) {
         if (p->getStock() >= qty) {
-            p->setStock(p->getStock() - qty); // tr? kho
+            p->setStock(p->getStock() - qty);
             bool found = false;
             for (size_t i = 0; i < cartItems.size(); i++) {
                 if (cartItems[i].product == p) {
@@ -190,4 +190,3 @@ int main() {
 
     return 0;
 }
-
